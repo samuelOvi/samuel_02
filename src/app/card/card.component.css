@@ -1,0 +1,39 @@
+.example-card {
+  width: 200px;
+  cursor: pointer;
+  /* display: flex;
+  justify-content: space-around; */
+
+}
+
+.cnt-card{
+  display: flex;
+  justify-content: space-around;
+}
+.cnt-card>div:first-child{
+  width: 18%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+}
+
+.example-header-image {
+  background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+  background-size: cover;
+
+}
+
+/* samuel*/
+.menu{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+h1{
+text-align: center;
+}
+
+h2{
+color:orange
+}
